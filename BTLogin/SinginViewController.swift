@@ -101,7 +101,7 @@ class SinginViewController: UIViewController {
         
         TextView2.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50).isActive = true
         
-        TextView2.heightAnchor.constraint(equalToConstant: 1).isActive = true
+        TextView2.heightAnchor.constraint(equalToConstant: 30).isActive = true
         
         TextView2.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50).isActive = true
         
@@ -135,6 +135,7 @@ class SinginViewController: UIViewController {
 
         TextView1.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 50).isActive = true
 
+        TextView1.heightAnchor.constraint(equalToConstant: 30).isActive = true
 
         TextView1.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50).isActive = true
 
